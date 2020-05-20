@@ -45,7 +45,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* WEBPACK VAR INJECTION */(f
 
 /***/ }),
 
-/***/ 1:
+/***/ 2:
 /*!***********************************************************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2Fabout&absolutePagePath=%2FUsers%2Fflatiron%2FDevelopment%2FModernReact_Udemy%2Fnext-trial%2Fpages%2Fabout.js ***!
   \***********************************************************************************************************************************************************/
@@ -68,4 +68,4 @@ eval("module.exports = dll_c2e10d183b950a67d9e7;//# sourceURL=[module]\n//# sour
 
 /***/ })
 
-},[[1,"static/runtime/webpack.js"]]]);
+},[[2,"static/runtime/webpack.js"]]]);
