@@ -14,7 +14,10 @@ const someFunc = () => {
         <div>
         <Link href="/about">
             {/* must give it some content; a 'child' */}
-            <a>About Page Link</a>
+            <a>About Page</a>
+        </Link><br></br>
+        <Link href="/contact">
+            <a>Contact Page</a>
         </Link>
             <p>Hello from INDEX page</p>
         </div>
