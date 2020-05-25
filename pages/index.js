@@ -11,11 +11,11 @@ import Link from 'next/link';
 const someFunc = () => {
     console.log("***running INDEX component***")
     return (
+        <div>
         <Link href="/about">
             {/* must give it some content; a 'child' */}
             <a>About Page Link</a>
         </Link>
-        <div>
             <p>Hello from INDEX page</p>
         </div>
     )
