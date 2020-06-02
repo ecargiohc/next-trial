@@ -4,10 +4,14 @@ const Navbar = () => {
     const styles = {
         display: "flex", 
         background: "purple",
-        alignItems: "space-between"
+        justifyContent: "space-between",
+        padding: "1rem"
     }
     return (
         <div style={styles}>
+            <Link href="/">
+                <a>Home!</a>
+            </Link>
             <Link href="/about">
                 {/* must give it some content; a 'child' */}
                 <a>About Page</a>

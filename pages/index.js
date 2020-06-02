@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import Navbar from '../components/Navbar'
 
 // const someFunction = () => (
 //     <div>
@@ -12,14 +13,7 @@ const someFunc = () => {
     console.log("***running INDEX component***")
     return (
         <div>
-        <Link href="/about">
-            {/* must give it some content; a 'child' */}
-            <a>About Page</a>
-        </Link><br></br>
-        <Link href="/contact">
-            <a>Contact Page</a>
-        </Link>
-            <p>Hello from INDEX page</p>
+            <Navbar/>
         </div>
     )
 }
