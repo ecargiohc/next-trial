@@ -3,7 +3,6 @@ import Navbar from '../components/Navbar'
     console.log("***running CONTACT component***")
      return (
      <>
-        <Navbar />
          <h1>Contact page says hello</h1>
      </>)
  };

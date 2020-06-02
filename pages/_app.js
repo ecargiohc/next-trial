@@ -1,5 +1,6 @@
- import React from 'react';
- import App, {Container} from 'next/app';
+import React from 'react';
+import App, {Container} from 'next/app';
+import Navbar from '../components/Navbar';
 
  class MyApp extends App {
      static async getInitialProps({Component, ctx}) {
@@ -18,6 +19,7 @@
          return (
              <Container>
                  <h1>HELLO FROM _app.js!</h1>
+                 <Navbar />
                  <Component {...pageProps} />
              </Container>
          );
