@@ -3,7 +3,7 @@ import Link from 'next/link'
 const Navbar = () => {
     const styles = {
         display: "flex", 
-        background: "purple",
+        background: "pink",
         justifyContent: "space-between",
         padding: "1rem"
     }
